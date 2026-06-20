@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#0b1220"/>
+  <text x="36" y="52" fill="#77d2ff" font-size="28" font-family="Menlo, Consolas, monospace">Senparc.AI AgentKernel Sample 启动完毕</text>
+  <text x="36" y="104" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[1] Chat 对话（AgentSession 多轮上下文）</text>
+  <text x="36" y="142" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[2] Completion 单次补全</text>
+  <text x="36" y="180" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[3] Embedding 与向量检索</text>
+  <text x="36" y="218" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[4] GPT-Image-2 绘图</text>
+  <text x="36" y="256" fill="#fca5a5" font-size="22" font-family="Menlo, Consolas, monospace">[5] Planner 任务计划（当前尚未提供）</text>
+  <text x="36" y="294" fill="#fca5a5" font-size="22" font-family="Menlo, Consolas, monospace">[6] PluginFromObject / Function Calling（当前尚未提供）</text>
+  <text x="36" y="332" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[7] STT（Speech to Text）</text>
+  <text x="36" y="370" fill="#c7d2fe" font-size="22" font-family="Menlo, Consolas, monospace">[8] TTS（Text to Speech）</text>
+</svg>

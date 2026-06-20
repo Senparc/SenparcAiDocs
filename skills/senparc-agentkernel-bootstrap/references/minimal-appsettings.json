@@ -1,0 +1,61 @@
+{
+  "SenparcSetting": {
+    "IsDebug": true,
+    "DefaultCacheNamespace": "MyAgentKernelApp"
+  },
+  "SenparcAiSetting": {
+    "IsDebug": true,
+    "AiPlatform": "OpenAI",
+    "VectorDB": {
+      "Type": "Memory",
+      "ConnectionString": ""
+    },
+    "OpenAIKeys": {
+      "ApiKey": "<Your-OpenAI-Key>",
+      "OrganizationId": "<Your-OpenAI-OrgId>",
+      "ModelName": {
+        "Chat": "gpt-4o",
+        "Embedding": "text-embedding-3-small",
+        "EmbeddingDimensions": 1536,
+        "TextCompletion": "gpt-4o-instruct",
+        "SpeechToText": "whisper",
+        "TextToSpeech": "tts"
+      }
+    },
+    "AzureOpenAIKeys": {
+      "ApiKey": "<Your-Azure-Key>",
+      "AzureEndpoint": "https://<your-resource>.openai.azure.com/",
+      "AzureOpenAIApiVersion": "2022-12-01",
+      "ModelName": {
+        "Chat": "gpt-4o",
+        "Embedding": "text-embedding-ada-002",
+        "EmbeddingDimensions": 1536,
+        "TextCompletion": "gpt-4o-instruct",
+        "SpeechToText": "whisper",
+        "TextToSpeech": "tts"
+      }
+    },
+    "NeuCharAIKeys": {
+      "ApiKey": "<Your-NeuChar-Key>",
+      "NeuCharEndpoint": "https://www.neuchar.com/<DeveloperId>",
+      "NeuCharAIApiVersion": "2022-12-01",
+      "ModelName": {
+        "Chat": "gpt-4o",
+        "Embedding": "text-embedding-ada-002",
+        "EmbeddingDimensions": 1536,
+        "TextCompletion": "gpt-4o-instruct",
+        "SpeechToText": "whisper",
+        "TextToSpeech": "tts"
+      }
+    },
+    "OllamaKeys": {
+      "Endpoint": "http://localhost:11434/",
+      "ModelName": {
+        "Chat": "deepseek-r1:14b",
+        "Embedding": "nomic-embed-text:v1.5",
+        "EmbeddingDimensions": 768,
+        "TextCompletion": "deepseek-r1:14b"
+      }
+    }
+  }
+}

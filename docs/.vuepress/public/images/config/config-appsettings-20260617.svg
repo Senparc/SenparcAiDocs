@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#111827"/>
+  <text x="36" y="56" fill="#93c5fd" font-size="28" font-family="Menlo, Consolas, monospace">appsettings.json (示意)</text>
+  <text x="36" y="110" fill="#e5e7eb" font-size="22" font-family="Menlo, Consolas, monospace">"AiPlatform": "OpenAI",</text>
+  <text x="36" y="150" fill="#e5e7eb" font-size="22" font-family="Menlo, Consolas, monospace">"VectorDB": { "Type": "Memory" },</text>
+  <text x="36" y="190" fill="#e5e7eb" font-size="22" font-family="Menlo, Consolas, monospace">"OpenAIKeys": { "ApiKey": "&lt;YOUR_KEY&gt;" ... }</text>
+  <text x="36" y="230" fill="#fcd34d" font-size="22" font-family="Menlo, Consolas, monospace">重点检查：平台字段、模型字段、向量维度</text>
+</svg>

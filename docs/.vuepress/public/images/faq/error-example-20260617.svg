@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#1f2937"/>
+  <text x="36" y="56" fill="#fca5a5" font-size="28" font-family="Menlo, Consolas, monospace">错误示意</text>
+  <text x="36" y="120" fill="#fecaca" font-size="22" font-family="Menlo, Consolas, monospace">401 Unauthorized: invalid api key</text>
+  <text x="36" y="160" fill="#fecaca" font-size="22" font-family="Menlo, Consolas, monospace">model not found: gpt-4o-instruct</text>
+  <text x="36" y="200" fill="#fecaca" font-size="22" font-family="Menlo, Consolas, monospace">embedding dimension mismatch</text>
+</svg>

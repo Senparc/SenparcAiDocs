@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#0f172a"/>
+  <text x="36" y="56" fill="#93c5fd" font-size="28" font-family="Menlo, Consolas, monospace">Embedding 检索示意</text>
+  <text x="36" y="118" fill="#e2e8f0" font-size="22" font-family="Menlo, Consolas, monospace">应答结果[1]</text>
+  <text x="36" y="156" fill="#e2e8f0" font-size="22" font-family="Menlo, Consolas, monospace">Id: 2</text>
+  <text x="36" y="194" fill="#e2e8f0" font-size="22" font-family="Menlo, Consolas, monospace">Name: doc-2</text>
+  <text x="36" y="232" fill="#e2e8f0" font-size="22" font-family="Menlo, Consolas, monospace">Text: Senparc is founded at 2010</text>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "name": "senparc-ai-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:build": "DOCS_BUNDLER=webpack vuepress build docs --clean-cache --clean-temp",
+    "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
+    "docs:dev": "DOCS_BUNDLER=webpack vuepress dev docs --clean-cache --clean-temp --host 127.0.0.1 --port ${PORT:-8090}",
+    "docs:dev:auto-port": "PORT=$(for p in 8090 8082 8081 5173 3000; do lsof -nP -iTCP:$p -sTCP:LISTEN >/dev/null || { echo $p; break; }; done) DOCS_BUNDLER=webpack vuepress dev docs --clean-cache --clean-temp --host 127.0.0.1 --port $PORT",
+    "docs:serve": "http-server docs/.vuepress/dist -a 127.0.0.1 -p 8081",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/bundler-webpack": "2.0.0-rc.14",
+    "@vuepress/plugin-register-components": "2.0.0-rc.37",
+    "@vuepress/plugin-shiki": "2.0.0-rc.40",
+    "@vuepress/theme-default": "2.0.0-rc.40",
+    "http-server": "^14.1.1",
+    "sass-loader": "^15.0.0",
+    "vue": "^3.4.34",
+    "vuepress": "2.0.0-rc.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-config-vuepress": "^4.4.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  },
+  "prettier": "prettier-config-vuepress",
+  "packageManager": "pnpm@9.10.0",
+  "engines": {
+    "node": ">=18.19.0"
+  }
+}

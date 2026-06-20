@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#0f172a"/>
+  <text x="36" y="56" fill="#93c5fd" font-size="28" font-family="Menlo, Consolas, monospace">RAG 引用示意</text>
+  <text x="36" y="118" fill="#e2e8f0" font-size="22" font-family="Menlo, Consolas, monospace">NCF is an AI-enabled modular framework...</text>
+  <text x="36" y="168" fill="#fde68a" font-size="22" font-family="Menlo, Consolas, monospace">Source: [NeuCharFramework (NCF) - Overview](https://doc.ncf.pub/)</text>
+</svg>

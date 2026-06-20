@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#111827"/>
+  <text x="36" y="56" fill="#93c5fd" font-size="28" font-family="Menlo, Consolas, monospace">Chat 输出示意</text>
+  <text x="36" y="118" fill="#d1fae5" font-size="22" font-family="Menlo, Consolas, monospace">机器：苏州特产包括...</text>
+  <text x="36" y="158" fill="#d1fae5" font-size="22" font-family="Menlo, Consolas, monospace">机器：南京特产包括盐水鸭...</text>
+  <text x="36" y="220" fill="#fbbf24" font-size="22" font-family="Menlo, Consolas, monospace">[调试] Tokens — input: 83, output: 126, total: 209</text>
+</svg>
