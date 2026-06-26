@@ -30,7 +30,15 @@ export default defineUserConfig({
   },
 
   bundler:
-    process.env.DOCS_BUNDLER === 'vite' ? viteBundler() : webpackBundler(),
+    process.env.DOCS_BUNDLER === 'vite'
+      ? viteBundler()
+      : webpackBundler({
+          scss: {
+            sassOptions: {
+              silenceDeprecations: ['import'],
+            },
+          },
+        }),
 
   theme: defaultTheme({
     hostname: 'https://senparc.github.io/SenparcAiDocs',

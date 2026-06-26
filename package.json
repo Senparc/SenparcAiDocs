@@ -6,8 +6,8 @@
   "scripts": {
     "docs:build": "DOCS_BUNDLER=webpack vuepress build docs --clean-cache --clean-temp",
     "docs:clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
-    "docs:dev": "DOCS_BUNDLER=webpack vuepress dev docs --clean-cache --clean-temp --host 127.0.0.1 --port ${PORT:-8090}",
-    "docs:dev:auto-port": "PORT=$(for p in 8090 8082 8081 5173 3000; do lsof -nP -iTCP:$p -sTCP:LISTEN >/dev/null || { echo $p; break; }; done) DOCS_BUNDLER=webpack vuepress dev docs --clean-cache --clean-temp --host 127.0.0.1 --port $PORT",
+    "docs:dev": "sh scripts/docs-dev.sh",
+    "docs:dev:8090": "DOCS_BUNDLER=webpack vuepress dev docs --clean-cache --clean-temp --host 127.0.0.1 --port 8090",
     "docs:serve": "http-server docs/.vuepress/dist -a 127.0.0.1 -p 8081",
     "format": "prettier --write ."
   },
